@@ -1,0 +1,12 @@
+[wrap-file]
+directory = poco-1.12.4
+source_url = https://pocoproject.org/releases/poco-1.12.4/poco-1.12.4.tar.gz
+source_filename = poco-1.12.4.tar.gz
+source_hash = 917d6ed92f47eb980b78a1369c0d7293c4b5eba09c40e7912617c9028c3537da
+patch_directory = poco-basic
+##patch_filename = gtest_1.12.1-1_patch.zip
+#patch_url = https://wrapdb.mesonbuild.com/v2/gtest_1.12.1-1/get_patch
+
+[provide]
+poco_base = poco_project
+
